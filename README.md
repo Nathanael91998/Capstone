@@ -11,3 +11,8 @@ After downloading Android Studio, go ahead an open it.  A welcome page will appe
 Your IDE should be ready to download and run the application.  Click on the green button labelled "Code" at the top of this repository. Then select the option download zip.  Unzip the file and open up Android Studio.  At the top left go ahead and select File > New > Import Project and then select the folder containing the project.  The application should load and compile properly.  To test this, select the "Run App" icon at the top of the IDE, where it should run and simulate on the emulator.  You will not be able to test the Bluetooth capabilities until you have downloaded the application to a physical device however.
 
 ## Step 4: Importing to your Android device
+Follow this guide for setting up your phone to be able to run your Android application: https://guides.codepath.com/android/Running-Apps-on-Your-Device.  It gives an overview of the steps needed to get the device running properly.  It doesn't give much detail regarding setting up the driver for your computer if you're developing on a Windows device, so I included an additional site I used to help me with this: https://developer.android.com/studio/run/oem-usb.  You should be able to use these two sources to get the application onto your phone.
+
+## Potential Issues
+* If you're having difficulty getting the code to compile and run, it is likely due to not having the proper SDK tools installed. Make sure you have the proper one installed for whichever device you wish to develop on.
+* If your device is too old (8+ years) it may not be able to run the application.
